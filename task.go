@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"gopkg.in/godo.v1/util"
-	"gopkg.in/godo.v1/watcher"
+	"gopkg.in/naganumat/godo.v1/util"
+	"gopkg.in/naganumat/godo.v1/watcher"
 )
 
 // TaskFunction is the signature of the function used to define a type.

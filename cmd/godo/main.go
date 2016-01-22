@@ -13,8 +13,8 @@ import (
 
 	"github.com/mgutz/minimist"
 	"github.com/mgutz/str"
-	"gopkg.in/godo.v1"
-	"gopkg.in/godo.v1/util"
+	"gopkg.in/naganumat/godo.v1"
+	"gopkg.in/naganumat/godo.v1/util"
 )
 
 var isWindows = runtime.GOOS == "windows"

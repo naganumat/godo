@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/mgutz/minimist"
-	"gopkg.in/godo.v1/util"
+	"gopkg.in/naganumat/godo.v1/util"
 )
 
 var watching bool

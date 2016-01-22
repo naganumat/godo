@@ -6,7 +6,7 @@ import (
 	"github.com/mgutz/goa"
 	f "github.com/mgutz/goa/filter"
 	"github.com/mgutz/str"
-	. "gopkg.in/godo.v1"
+	. "gopkg.in/naganumat/godo.v1"
 )
 
 func tasks(p *Project) {
@@ -30,7 +30,7 @@ func tasks(p *Project) {
 		// add godoc
 		goa.Pipe(
 			f.Load("./README.md"),
-			f.Str(str.ReplaceF("--", "\n[godoc](https://godoc.org/gopkg.in/godo.v1)\n", 1)),
+			f.Str(str.ReplaceF("--", "\n[godoc](https://godoc.org/gopkg.in/naganumat/godo.v1)\n", 1)),
 			f.Write(),
 		)
 	})

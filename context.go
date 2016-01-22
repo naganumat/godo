@@ -2,7 +2,7 @@ package godo
 
 import (
 	"github.com/mgutz/minimist"
-	"gopkg.in/godo.v1/watcher"
+	"gopkg.in/naganumat/godo.v1/watcher"
 )
 
 // Context is the data passed to a task.

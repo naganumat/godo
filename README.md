@@ -1,13 +1,13 @@
 # godo
 
-[godoc](https://godoc.org/gopkg.in/godo.v1)
+[godoc](https://godoc.org/gopkg.in/naganumat/godo.v1)
 
 godo is a task runner and file watcher for golang in the spirit of
 rake, gulp.
 
 To install
 
-    go get -u gopkg.in/godo.v1/cmd/godo
+    go get -u gopkg.in/naganumat/godo.v1/cmd/godo
 
 ## Godofile
 
@@ -20,7 +20,7 @@ package main
 
 import (
 	"fmt"
-    . "gopkg.in/godo.v1"
+    . "gopkg.in/naganumat/godo.v1"
 )
 
 func tasks(p *Project) {

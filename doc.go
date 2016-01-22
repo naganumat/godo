@@ -2,14 +2,14 @@
 //
 // To install
 //
-//      go get -u gopkg.in/godo.v1/cmd/godo
+//      go get -u gopkg.in/naganumat/godo.v1/cmd/godo
 //
 // As an example, create a file 'tasks/Godofile.go' with this content
 //
 //    package main
 //
 //    import (
-//        . "gokpkg.in/godo.v1"
+//        . "gokpkg.in/naganumat/godo.v1"
 //    )
 //
 //    func Tasks(p *Project) {

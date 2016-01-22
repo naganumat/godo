@@ -7,7 +7,7 @@ import (
 	"os/exec"
 
 	"github.com/mgutz/ansi"
-	"gopkg.in/godo.v1/util"
+	"gopkg.in/naganumat/godo.v1/util"
 )
 
 // Proccesses are the processes spawned by Start()

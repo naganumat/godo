@@ -10,7 +10,7 @@ import (
 
 	"github.com/howeyc/gopass"
 	"github.com/mgutz/str"
-	"gopkg.in/godo.v1/util"
+	"gopkg.in/naganumat/godo.v1/util"
 )
 
 // In is used by Bash, Run and Start to set the working directory.
@@ -240,5 +240,10 @@ func Prompt(prompt string) string {
 // PromptPassword prompts user for password input.
 func PromptPassword(prompt string) string {
 	fmt.Printf(prompt)
-	return string(gopass.GetPasswd())
+	b, err := gopass.GetPasswd()
+	if err != nil {
+		fmt.Println(err.Error())
+		return ""
+	}
+	return string(b)
 }

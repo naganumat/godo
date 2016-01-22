@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/mgutz/str"
-	"gopkg.in/godo.v1/util"
-	"gopkg.in/godo.v1/watcher"
+	"gopkg.in/naganumat/godo.v1/util"
+	"gopkg.in/naganumat/godo.v1/watcher"
 )
 
 // M is generic string to interface alias
