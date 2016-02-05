@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/godo.v2/glob"
+	"gopkg.in/naganumat/godo.v2/glob"
 )
 
 // FileExists determines if path exists

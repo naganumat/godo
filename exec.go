@@ -11,7 +11,7 @@ import (
 	"github.com/howeyc/gopass"
 	"github.com/mgutz/str"
 	"github.com/nozzle/throttler"
-	"gopkg.in/godo.v2/util"
+	"gopkg.in/naganumat/godo.v2/util"
 )
 
 // Bash executes a bash script (string).

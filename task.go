@@ -10,9 +10,9 @@ import (
 
 	"github.com/mgutz/minimist"
 	"github.com/mgutz/str"
-	"gopkg.in/godo.v2/glob"
-	"gopkg.in/godo.v2/util"
-	"gopkg.in/godo.v2/watcher"
+	"gopkg.in/naganumat/godo.v2/glob"
+	"gopkg.in/naganumat/godo.v2/util"
+	"gopkg.in/naganumat/godo.v2/watcher"
 )
 
 // TaskFunction is the signature of the function used to define a type.

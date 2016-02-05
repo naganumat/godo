@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/godo.v2/watcher/fswatch"
 	"github.com/mgutz/str"
+	"gopkg.in/naganumat/godo.v2/watcher/fswatch"
 )
 
 const (

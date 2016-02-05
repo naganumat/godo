@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/mgutz/minimist"
-	"gopkg.in/godo.v2/glob"
-	"gopkg.in/godo.v2/util"
-	"gopkg.in/godo.v2/watcher"
+	"gopkg.in/naganumat/godo.v2/glob"
+	"gopkg.in/naganumat/godo.v2/util"
+	"gopkg.in/naganumat/godo.v2/watcher"
 )
 
 // softPanic is used to check for errors within a task handler.
