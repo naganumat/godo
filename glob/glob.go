@@ -215,7 +215,7 @@ func hasMeta(path string) bool {
 
 func isDir(path string) bool {
 	st, err := os.Stat(path)
-	if os.IsNotExist(err) {
+	if err != nil {
 		return false
 	}
 	return st.IsDir()
